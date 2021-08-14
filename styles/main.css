@@ -1,0 +1,305 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.logo {
+    color: white;
+    
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a{
+    color: white;
+    display: block;
+    padding: 0.5rem 0.5rem;
+}
+
+.navigation ul li a:hover{
+    color:white;
+}
+
+.two-section {
+    width: 100%;
+    height: 568px;  
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 40px 90px; 
+}
+
+.my-image1 {
+    background-image: url("../img/Imagen_Jaminton_recortada.jpeg");
+    width: 390px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+
+.txt{
+    background-color: white;
+    width: 585px;
+    height: 408px;
+    padding: 0 15px;  
+    margin: 40px 0px 0px 97.5px;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+}
+
+.three-section {
+    width: 100%;
+    height: 499px;  
+    /*margin: 0px 89.5px;*/
+    padding: 0px 15px;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container {
+    box-sizing: border-box;
+    background-size: contain;
+    width: 90%;
+    height: 62.22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container1 {
+   background-image: url(/img/img_section_3/comet.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   max-width: 100%;
+   width:100%;
+   height:100%
+}
+
+.flex-container2 {
+    background-image: url(/img/img_section_3/telepizza.jpg);
+    background-size: contain;
+   background-repeat: no-repeat;
+    max-width: 100%;
+    width:100%;
+    height:100%
+}
+
+.flex-container3 {
+    background-image: url(/img/img_section_3/universidad-politecnica-valencia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width:100%;
+    height:100%
+}
+
+.flex-container4 {
+    background-image: url(/img/img_section_3/mcdonals.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width:100%;
+    height:100%
+}
+
+.three-clientes{
+    box-sizing: border-box;
+    background-size: contain;
+    width: 60%;
+    height: 62.22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container5 {
+    background-image: url(/img/img_section_3/universidad-de-valencia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width:100%;
+    height:100%
+}
+
+.flex-container6 {
+    background-image: url(/img/img_section_3/grefusa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width:100%;
+    height:100%
+}
+
+.flex-container7 {
+    background-image: url(/img/img_section_3/lavernia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width:100%;
+    height:100%
+}
+
+.final-cliente {
+    color: black;
+    padding: 60px 0px 0px;
+    width: 60%;
+    height: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-container8{
+    border:solid 2px #e48400;
+    padding: 12px 45px;
+    margin: 20px 0px 0px;
+    width: 201.42px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fourt-section {
+    width: 100%;
+    height: 568px;  
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 40px 90px; 
+}
+
+.my-image {
+    background-image: url("../img/espacio.jpg");
+    width: 50%;
+    height: 70%;
+    padding: 40px;
+}
+
+.my-txt{
+    background-color: white;
+    width: 585px;
+    height: 408px;
+    padding: 0 15px;  
+    margin: 0px 0px 0px 97.5px;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+}
+
+.sevices-section {
+    background-color: white;
+    color:black;
+    width: 100%;
+    height: 937px;  
+    padding: 40px 90px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+
+.sevices-section h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.first-three{
+    background-color: white;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.five-container {
+    background-color: white;
+    width: 360px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+.five-container2 {
+    background-color: aqua;
+}
+
+.five-container3 {
+    background-color: yellow;
+}
+
+.second-three{
+    background-color: white;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.five-container4 {
+    background-color: pink;
+    
+}
+.five-container5 {
+    background-color: aqua;
+}
+
+.five-container6 {
+    background-color: yellow;
+}
+
+.six-section {
+    background-color:yellowgreen;
+    color:black;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 937px;    
+}
+
+@media screen and (max-width: 768px){
+    
+}

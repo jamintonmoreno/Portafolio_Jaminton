@@ -1,0 +1,20 @@
+.main-section {
+    height: 100vh;
+    background-image: linear-gradient(rgba(5,7,12,0.4), rgba(5,7,12,0.4)), url("../img/espacio.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title h1{
+    color: #fff;   
+}
+
+.second-title {
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+}
