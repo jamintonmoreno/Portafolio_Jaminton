@@ -1,20 +1,155 @@
-.main-section {
-    height: 100vh;
-    background-image: linear-gradient(rgba(5,7,12,0.4), rgba(5,7,12,0.4)), url("../img/espacio.jpg") ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
+/* font-family: 'Dosis', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Raleway:wght@200;400;600&display=swap');
+/* font-family: 'Raleway', sans-serif;*/
+
+/* Elaboracion del Header */
+
+.logo-container .logo {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 340px;
+    height: 75px;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.navigation {
+    width: 50%;
+    height: 75px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    float: right;
+       
 }
 
+.navigation ul li a {
+    color: rgba(255,255,255,0.7);
+}
+
+/* Primera sección*/
 .main-title h1{
-    color: #fff;   
+    color: #fff;  
+    font-size: 64px;
+    font-family: "Raleway", sans-serif; 
 }
 
-.second-title {
-    height: 1000px;
+.main-title h2 {
+    color: #fff; 
+    font-family: "Dosis", sans-serif;
+    font-size: 16px; 
+    letter-spacing: 5px;
+}
+
+.habilidades {
     width: 100%;
-    background-color: aqua;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.rol-profesional {
+    width:100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.rol-profesional span {
+    color: #e48400;
+}
+
+/* Segunda sección*/
+.my-image1 {
+    background-image: url("../img/Imagen_Jaminton_recortada.jpeg");
+    width: 390px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.txt{
+    width: 585px;
+    height: 408px;
+    padding: 0 15px;  
+    margin: 20px 0px 0px 97.5px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.txt p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.7;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.second-section .txt p.resaltar {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+/* Tercera sección*/
+.three-section h3 {
+    font-family: "Dosis",sans-serif;
+    letter-spacing: .2em;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.flex-container8 a {
+    font-size: 13px;
+    color: #e48400;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.flex-container8 a:hover {
+    transition: .5s ease;
+    padding: 14px 47px;
+    color:white;
+    background-color: #e48400;
+    cursor: pointer;    
+    box-sizing: border-box;
+}
+
+/* Quinta sección */
+.sevices-section h2 {
+    text-align: center;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+.five-container1 img {
+    margin-top: 10px;
+}
+
+.five-container2 img {
+    margin-top: 10px;
+}
+
+.five-container3 img {
+    margin-top: 10px;
+}
+
+.five-container4 img {
+    margin: 10px 0 10px 0;
+}
+
+.five-container5 img {
+    margin-top: 10px;
+}
+
+.five-container6 img {
+    margin-top: 10px;
 }

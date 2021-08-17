@@ -11,80 +11,107 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
 }
 
+
+/* Elaboracion del Header
+Se fija y se hace transparente */
 .header{
+    height: 75px;
     width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
     background-color: transparent;
 }
+/* Estilizamos div que va contener la informacion del Header */
 
-.logo {
-    color: white;
-    
+.container {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;  
 }
 
-.logo-nav-container{
+.logo-conteiner {
+    width: 50%;
+    height: 75px ;
     display: flex;
-    justify-content: space-between;
+    position: relative;
+    margin-left: 20px;
     align-items: center;
 }
 
-.navigation ul {
-    margin: 0;
-    padding: 0;
+.logo span {
+    color: #e48400;
+    font-weight: 600;
 }
+
+.logo-conteiner:hover a {
+    transition: all .5s;
+    transform: rotate(360deg);
+
+}
+
+.logo {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    max-width: 340px;
+    color: rgba(255,255,255,0.9);
+    vertical-align: middle; 
+    word-spacing: 4px;
+}
+
+.navigation ul {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
 .navigation ul li {
     display: inline-block;
-}
-.navigation ul li a{
-    color: white;
-    display: block;
-    padding: 0.5rem 0.5rem;
+    letter-spacing: 1px;
+    word-spacing: 0.25rem;
+    margin-left: 30px;
+    position: relative;
 }
 
 .navigation ul li a:hover{
     color:white;
 }
 
+/* Primera sección*/
+.main-section {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(rgba(5,7,12,0.4), rgba(5,7,12,0.4)), url("../img/espacio.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center
+}
+
+/* Segunda sección */
 .two-section {
     width: 100%;
     height: 568px;  
-    background-color: white;
-    color: blue;
+    background-color: #F0F0F0;
     display: flex;
     justify-content: space-around;
     align-items: center; 
     padding: 40px 90px; 
 }
 
-.my-image1 {
-    background-image: url("../img/Imagen_Jaminton_recortada.jpeg");
-    width: 390px;
-    height: 360px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    
-}
-
-.txt{
-    background-color: white;
-    width: 585px;
-    height: 408px;
-    padding: 0 15px;  
-    margin: 40px 0px 0px 97.5px;
-    text-align: center;
-    border: 1px solid;
-    border-color: black;
-}
-
+/* Tercera sección */
 .three-section {
     width: 100%;
     height: 499px;  
-    /*margin: 0px 89.5px;*/
     padding: 0px 15px;
     color:black;
     display: flex;
@@ -188,16 +215,16 @@ a {
 
 .flex-container8{
     border:solid 2px #e48400;
-    padding: 12px 45px;
-    margin: 20px 0px 0px;
+    padding: 11px 0 0 0;
     width: 201.42px;
     height: 46px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center;    
 }
 
+/*Cuarta sección*/
 .fourt-section {
     width: 100%;
     height: 568px;  
@@ -227,6 +254,7 @@ a {
     border-color: black;
 }
 
+/* Quinta sección*/
 .sevices-section {
     background-color: white;
     color:black;
@@ -236,11 +264,6 @@ a {
     display: flex;
     flex-wrap: wrap;  
     justify-content: space-between;
-}
-
-.sevices-section h2 {
-    text-align: center;
-    margin: auto;
 }
 
 .first-three{
@@ -255,7 +278,8 @@ a {
     background-color: white;
     width: 360px;
     height: 320px;
-    display: flex;
+    text-align: center;
+    display: block;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
@@ -264,11 +288,11 @@ a {
 }
 
 .five-container2 {
-    background-color: aqua;
+    background-color: white;
 }
 
 .five-container3 {
-    background-color: yellow;
+    background-color: white;
 }
 
 .second-three{
@@ -280,15 +304,16 @@ a {
 }
 
 .five-container4 {
-    background-color: pink;
+    background-color: white;
     
 }
 .five-container5 {
-    background-color: aqua;
+    background-color: white;
+
 }
 
 .five-container6 {
-    background-color: yellow;
+    background-color: white;
 }
 
 .six-section {
