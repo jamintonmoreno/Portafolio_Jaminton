@@ -122,7 +122,7 @@
     box-sizing: border-box;
 }
 
-/* Quinta sección */
+/* Cuarta sección */
 .sevices-section h2 {
     text-align: center;
     margin: auto;
@@ -130,26 +130,25 @@
     font-size: 20px;
 }
 
-.five-container1 img {
-    margin-top: 10px;
+.five-container img {
+    margin: 10px 0 20px 0;
 }
 
-.five-container2 img {
-    margin-top: 10px;
+.five-container h2 {
+    margin: 0 0 15px 0;
+    color: #777;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: 0.2rem;
 }
 
-.five-container3 img {
-    margin-top: 10px;
-}
-
-.five-container4 img {
-    margin: 10px 0 10px 0;
-}
-
-.five-container5 img {
-    margin-top: 10px;
-}
-
-.five-container6 img {
-    margin-top: 10px;
+.five-container p {
+    color: #777;
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.2rem;
 }

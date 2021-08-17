@@ -224,37 +224,7 @@ Se fija y se hace transparente */
     text-align: center;    
 }
 
-/*Cuarta sección*/
-.fourt-section {
-    width: 100%;
-    height: 568px;  
-    background-color: white;
-    color: blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    padding: 40px 90px; 
-}
-
-.my-image {
-    background-image: url("../img/espacio.jpg");
-    width: 50%;
-    height: 70%;
-    padding: 40px;
-}
-
-.my-txt{
-    background-color: white;
-    width: 585px;
-    height: 408px;
-    padding: 0 15px;  
-    margin: 0px 0px 0px 97.5px;
-    text-align: center;
-    border: 1px solid;
-    border-color: black;
-}
-
-/* Quinta sección*/
+/* Cuarta sección*/
 .sevices-section {
     background-color: white;
     color:black;
@@ -282,13 +252,19 @@ Se fija y se hace transparente */
     display: block;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid #777;
     margin: 10px 0;
     padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .five-container2 {
     background-color: white;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
 }
 
 .five-container3 {
