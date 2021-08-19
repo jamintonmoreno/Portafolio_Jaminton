@@ -21,8 +21,9 @@ Se fija y se hace transparente */
 .header{
     height: 75px;
     width: 100%;
-    position: fixed;
+    position: absolute;
     background-color: transparent;
+    margin: 0 auto;
 }
 
 /* Estilizamos div que va contener la informacion del Header */
@@ -85,8 +86,8 @@ Se fija y se hace transparente */
 
 /* Primera sección*/
 .main-section {
-    width: 100%;
     height: 100vh;
+    width: 100%;
     align-items: center;
     background-image: linear-gradient(rgba(5,7,12,0.4), rgba(5,7,12,0.4)), url("../img/espacio.jpg") ;
     background-position: center;
@@ -107,6 +108,29 @@ Se fija y se hace transparente */
     padding: 40px 90px; 
 }
 
+@media (max-width: 1024px) {
+    .two-section {
+        width: 100%;
+        height: 800px;  
+        background-color: #F0F0F0;
+        display: block;
+        justify-content: center;
+        align-items: center; 
+        padding: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .two-section {
+        width: 100%;
+        height: 1200px;  
+        background-color: #F0F0F0;
+        display: block;
+        justify-content: center;
+        align-items: center; 
+        padding: 10px;
+    }
+}
 /* Tercera sección */
 .three-section {
     width: 100%;
@@ -274,26 +298,83 @@ Se fija y se hace transparente */
     justify-content: space-around;
 }
 
+@media (max-width: 1024px) {
+    .sevices-section {
+        width: 100%;
+        height: 8000px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        box-sizing: border-box;
+    } 
+    .five-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+      
+    .first-three{
+        background-color: white;
+        width: 100%;
+        height: 1500px;
+        display: block;
+        justify-content: space-around;
+    }
+    .second-three{
+        background-color: white;
+        width: 100%;
+        height: 1500px;
+        display: block;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 360px) {
+    .sevices-section {
+        width: 100%;
+        height: 3800px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        box-sizing: border-box;
+    } 
+    .five-container {
+        background-color: white;
+        width: 100%;
+        height: 600px;
+        text-align: center;
+        display:block;
+        flex-wrap: wrap;  
+        align-items: center;
+        justify-content: center;        
+    }
+    .first-three{
+        background-color: white;
+        width: 100%;
+        height: 1900px;
+        display: block;
+        justify-content: space-around;
+    }
+    .second-three{
+        background-color: white;
+        width: 100%;
+        height: 400px;
+        display: block;
+        justify-content: space-around;
+    }
+}
+
 /*Quinta sección*/
 .six-section {
-    color:black;
-    display: block;
-    position: relative;
     width: 100%;
-    height: 937px;    
+    height: 600px;
+    background-color:#F0F0F0;
 }
-
-.contact-section {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px ;
-    width: 100%;
-    height: 937px;
-    display: block;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-}
-
-@media screen and (max-width: 768px){
+.contact {
+    width: 80%;
+    margin: auto;
     
 }
