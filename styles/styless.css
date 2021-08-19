@@ -7,6 +7,7 @@
 .logo-container .logo {
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
+    padding-left:40px;
     display: table-cell;
     vertical-align: middle;
     max-width: 340px;
@@ -18,9 +19,8 @@
 .navigation {
     width: 50%;
     height: 75px;
-    display: flex;
-    position: relative;
-    float: right;    
+    padding-right: 40px;
+    display: flex;      
 }
 
 .navigation ul li a {
@@ -28,11 +28,7 @@
 }
 
 /* Primera sección*/
-.main-title h1{
-    color: #fff;  
-    font-size: 64px;
-    font-family: "Raleway", sans-serif; 
-}
+
 
 .main-title h2 {
     color: #fff; 
@@ -49,6 +45,9 @@
 }
 
 .rol-profesional {
+    color: #fff;  
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
     width:100%;
     text-align: center;
     justify-content: center;
@@ -58,6 +57,17 @@
     color: #e48400;
 }
 
+@media (max-width: 1024px) {
+    .rol-profesional {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    .rol-profesional {
+        font-size: 3em;
+    }
+}
 /* Segunda sección*/
 .my-image1 {
     background-image: url("../img/Imagen_Jaminton_recortada.jpeg");
@@ -71,8 +81,7 @@
 .txt{
     width: 585px;
     height: 408px;
-    padding: 0 15px;  
-    margin: 20px 0px 0px 97.5px;
+    padding-left: 60px;
     text-align: justify;
     box-sizing: border-box;
 }
@@ -94,6 +103,24 @@
     margin: 10px 10px;
 }
 
+@media (max-width: 1024px) {
+    .my-image1 {
+        width: 100%;
+        height: 360px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .txt {
+        width: 100%;
+        height: 408px;
+        text-align: justify;
+        box-sizing: border-box;
+        
+    }
+}
 /* Tercera sección*/
 .three-section h3 {
     font-family: "Dosis",sans-serif;
