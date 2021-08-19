@@ -111,7 +111,7 @@ Se fija y se hace transparente */
 @media (max-width: 1024px) {
     .two-section {
         width: 100%;
-        height: 800px;  
+        height: 1050px;  
         background-color: #F0F0F0;
         display: block;
         justify-content: center;
@@ -123,7 +123,7 @@ Se fija y se hace transparente */
 @media (max-width: 360px) {
     .two-section {
         width: 100%;
-        height: 1200px;  
+        height: 1600px;  
         background-color: #F0F0F0;
         display: block;
         justify-content: center;
@@ -131,6 +131,7 @@ Se fija y se hace transparente */
         padding: 10px;
     }
 }
+
 /* Tercera sección */
 .three-section {
     width: 100%;
@@ -301,7 +302,8 @@ Se fija y se hace transparente */
 @media (max-width: 1024px) {
     .sevices-section {
         width: 100%;
-        height: 8000px;
+        height: 2100px;
+        padding: 10px;
         display: block;
         flex-wrap: wrap;
         justify-content: center;
@@ -313,19 +315,21 @@ Se fija y se hace transparente */
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
+        margin: 0px ;
+        padding: 10px;
     }
       
     .first-three{
         background-color: white;
         width: 100%;
-        height: 1500px;
+        height: 1000px;
         display: block;
         justify-content: space-around;
     }
     .second-three{
         background-color: white;
         width: 100%;
-        height: 1500px;
+        height: 1000px;
         display: block;
         justify-content: space-around;
     }
@@ -335,6 +339,7 @@ Se fija y se hace transparente */
     .sevices-section {
         width: 100%;
         height: 3800px;
+        padding: 10px;
         display: block;
         flex-wrap: wrap;
         justify-content: center;
@@ -344,7 +349,9 @@ Se fija y se hace transparente */
     .five-container {
         background-color: white;
         width: 100%;
-        height: 600px;
+        height: 700px;
+        margin: 0px;
+        padding: 10px;
         text-align: center;
         display:block;
         flex-wrap: wrap;  
@@ -354,14 +361,16 @@ Se fija y se hace transparente */
     .first-three{
         background-color: white;
         width: 100%;
-        height: 1900px;
+        height: 50%;
+        padding: 10px;
         display: block;
         justify-content: space-around;
     }
     .second-three{
         background-color: white;
         width: 100%;
-        height: 400px;
+        height: 50%;
+        padding: 10px;
         display: block;
         justify-content: space-around;
     }
